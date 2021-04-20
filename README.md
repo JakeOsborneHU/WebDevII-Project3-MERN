@@ -1,0 +1,2 @@
+# WebDevII-Project3-MERN
+Create a MERN app that uses the RESTful web API created from the second project. The web API will be enhanced to support user authentication.  The app must do something useful with your web API. Ex: A Pokémon app could allow Pokémon that are retrieved from the web API to fight each other. Or the app could allow the user to create new Pokémon or alter existing Pokémon and allow the user to upload an image for the Pokémon.
