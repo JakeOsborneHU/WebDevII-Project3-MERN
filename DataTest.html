@@ -1,5 +1,41 @@
-<h1>Display Pokemon advantage</h1>
+<h1>Chikopedia Homepage</h1>
 <body>
     <script src="ChikopediaTypeChart.js"></script>
-    <div id="PokemonGoHere">ReplaceMe</div>
+    <script>
+        var URLbase = "/PokemonAPI/authenticate";
+        var userToCheck;
+        var passwordToCheck;
+
+        function AuthenticateUser()
+        {
+            userToCheck=document.getElementById("Username");
+            passwordToCheck=document.getElementById("Password");
+            if(userToCheck === "")
+            {
+                document.getElementById("missingData").hidden = false;
+            }
+            else if (passwordToCheck === "")
+            {
+                document.getElementById("missingData").hidden = false;
+            }
+            else
+            {
+                document.getElementById("missingData").hidden = true;
+            }
+
+            var URLtoSend = URLbase + "user:" + usertoCheck + "pass:" + passwordToCheck;
+
+            fetch(URLtoSend)
+        }
+    </script>
+    <form>
+        <div>
+            <input type="text" id="Username">Username
+            <input type="text" id="Password">Password
+            <p hidden id="missingData">Please input all data.</p>
+            <p hidden id="invalidData">The submitted Username/Password was invalid.</p>
+        </div>
+        <input type="button" onclick="AuthenticateUser()">
+    </form>
+
 </body>
