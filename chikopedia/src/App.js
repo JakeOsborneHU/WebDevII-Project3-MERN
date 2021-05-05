@@ -23,7 +23,7 @@ function Homepage() {
 }
 
 function App() {
-    return;
+    return <p>This is the home page</p>;
 }
 
 export default App;
