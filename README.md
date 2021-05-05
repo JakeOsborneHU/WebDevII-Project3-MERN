@@ -11,3 +11,16 @@ The app must do something useful with your web API. Ex: A Pokémon app could all
 4. The app should be created by create-react-app and run on port 3000.
 5. The app should work as a single-page app using React Router to handle app navigation.
 6. The app should use React-Bootstrap (Links to an external site.) or Material-UI  (Links to an external site.)to enhance the visual appeal of the app. No modification of the original styling is necessary.
+
+
+Original Proposal
+https://docs.google.com/document/d/1-1E6blvxNEG2gyckrD_Chf0X3zxPDgAtqtrr4qcRBdg/edit
+
+Anthony:
+Typechart (Unused in current state.) Pair Programming
+Jake:
+Pair Programming, out of Pair time research.
+
+Percentages:
+  Anthony: 50%
+  Jake: 50%
