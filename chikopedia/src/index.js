@@ -6,8 +6,8 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/header'
-import Service from './components/service'
-import About from './components/about'
+import Create from './components/create'
+//import About from './components/about'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,8 +15,7 @@ ReactDOM.render(
       <Header/>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/service" component={Service} />
-        <Route path="/about" component={About} />
+        <Route path="/create" component={Create} />
         
       </Switch>
     </Router>

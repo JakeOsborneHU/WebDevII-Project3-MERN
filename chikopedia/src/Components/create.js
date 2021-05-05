@@ -59,3 +59,5 @@ function Create() {
     </Form>
   );
 }
+
+export default create
