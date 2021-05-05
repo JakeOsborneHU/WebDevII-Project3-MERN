@@ -1,6 +1,7 @@
 const config = require('../config');
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors')
 
 const app = express();
 
@@ -18,6 +19,8 @@ app.use(config.pokemonAPI.path, require('./api/pokemon'));
 
 // Middleware that looks for static files
 app.use(express.static('./static'));
+
+app.use(cors())
 
 // ****************************************************************************
 
