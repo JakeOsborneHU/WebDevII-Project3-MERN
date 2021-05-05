@@ -1,3 +1,8 @@
 import React from 'react';
 
-return;
+function Browse()
+{
+    return <p>This is the browse Pokemon page</p>;
+}
+
+export default Browse
