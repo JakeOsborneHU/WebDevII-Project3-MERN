@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from 'react-bootstrap/Form';
 
 function Create() {
   return(
@@ -60,4 +61,4 @@ function Create() {
   );
 }
 
-export default create
+export default Create
